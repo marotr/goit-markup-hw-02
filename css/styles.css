@@ -132,7 +132,6 @@ button:focus {
   letter-spacing: 0.4px;
 }
 
-.portfolio-text,
 .team-text,
 .advantages-text {
   color: #434455;
@@ -142,6 +141,10 @@ button:focus {
   letter-spacing: 0.02em;
 }
 .portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
   letter-spacing: 0.02em;
 }
 
