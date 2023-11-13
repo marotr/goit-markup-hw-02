@@ -88,19 +88,26 @@ button:focus {
 .team {
   background-color: #f4f4fd;
 }
-.team-header,
-.advantages-header,
-.portfolio-header,
-. {
+
+.advantages-header {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-
+.team-header,
+.portfolio-header {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .advantages-list,
 .team-list-header,
 .portfolio-list-header {
@@ -110,9 +117,10 @@ button:focus {
   line-height: 120%;
   letter-spacing: 0.4px;
 }
-.advantages-text,
+
+.portfolio-text,
 .team-text,
-.portfolio-text {
+.advantages-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -129,7 +137,7 @@ img {
 .team-text {
   text-align: center;
 }
-.team-list {
+.team-list-item {
   background-color: #ffffff;
 }
 .portfolio {
